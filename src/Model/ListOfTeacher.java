@@ -3,6 +3,10 @@ package Model;
 import java.util.ArrayList;
 
 public class ListOfTeacher {
+    private ListOfTeacher(){
+        // constructor
+    }
+
     private ArrayList<Teacher> loT = new ArrayList<Teacher>();
 
     public void add(Teacher teacher){

@@ -1,7 +1,10 @@
 package Model;
 
 public class Teacher extends Staff {
-    public Teacher (String firstName, String lastName){
-        super(firstName, lastName);
+    public String subject;
+
+    public Teacher (int ID, String firstName, String lastName, String subject){
+        super(ID, firstName, lastName);
+        this.subject = subject;
     }
 }

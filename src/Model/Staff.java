@@ -23,7 +23,7 @@ public class Staff {
         return lastName;
     }
 
-    //  setter
+    //   setter
     public void setStaffID(int staffID){
         this.staffID = staffID;
     }

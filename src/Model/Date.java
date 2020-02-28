@@ -28,16 +28,16 @@ public class Date{
         this.semesterYear = semesterYear;
     }
 
-    public boolean equals() {
-            if(Date.getSemesterNumber()==this.getSemesterNumber()
-                    &&
-               Date.getSemesterYear()==this.getSemesterYear())
-            {
-                return true;
-            }
-            else{
-                return false;
-            }
+//    public boolean equals() {
+//            if(getSemesterNumber()==this.getSemesterNumber()
+//                    &&
+//               getSemesterYear()==this.getSemesterYear())
+//            {
+//                return true;
+//            }
+//            else{
+//                return false;
+//            }
     }
 
 }

@@ -3,17 +3,17 @@ package Model;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ListOfStaff implements Iterable<Staff> {
-    private final ArrayList<Staff> listOfStaff = new ArrayList<Staff>();
+// available maybe
+public class ListOfStaff {
+    private final ArrayList<Staff> loS = new ArrayList<Staff>();
 
 
     public void add(Staff staff){
-        listOfStaff.add(staff);
+        loS.add(staff);
     }
-
-    public Iterator<Staff> iterator(){
-        return this.listOfStaff.iterator();
-    }
-
+//  public class ListOfStaff implements Iterable<Staff>
+//
+//  @Override
+//  public Iterator<Staff> iterator()
 
 }
