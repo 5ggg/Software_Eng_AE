@@ -4,12 +4,12 @@ public class Class {
 
     private String className;
     private int classID;
-    private Semester semester;
+    private Date date;
 
-    public Class(String className, int classID, Semester semester){
+    public Class(String className, int classID, Date date){
         this.setClassName(className);
-        this.setclassId(classID);
-        this.setSemester(semester);
+        this.setClassID(classID);
+        this.setDate(date);
     }
 
     // ClassName
@@ -28,11 +28,11 @@ public class Class {
         this.classID = classID;
     }
 
-    // Semester
-    public Semester getSemester() {
-        return semester;
+    // Date
+    public Date getDate() {
+        return date;
     }
-    public void setSemester(Semester semester) {
-        this.semester = semester;
+    public void setDate(Date date) {
+        this.date = date;
     }
 }
