@@ -32,9 +32,9 @@ public class Request {
     // status =1 / 2
     // 1 means accept
     // 2 means reject
-    public void requestAccepted() {
+    public void requestAccept() {
     }
-    public void requestRejected() {
+    public void requestReject() {
     }
 
     // print it out here.

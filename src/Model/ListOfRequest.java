@@ -19,10 +19,10 @@ public class ListOfRequest {
 
 
     public ArrayList<Request> getAcceptedRequest(){
-        // get the accept list.
+        // get the accept list. (From PTT director)
     }
     public ArrayList<Request> getRejectedRequest(){
-        // get the rejected list.
+        // get the rejected list. (From PTT director)
     }
 
 

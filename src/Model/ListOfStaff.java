@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 // available maybe
+// if we need get the type from the
 public class ListOfStaff {
     private final ArrayList<Staff> loS = new ArrayList<Staff>();
 
