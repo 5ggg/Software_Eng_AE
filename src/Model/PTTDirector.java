@@ -7,16 +7,13 @@ public class PTTDirector extends Staff {
         super(firstName, lastName);
     }
 
-    public void approve(ClassRequest request){
-        request.setRequestStatus(ClassRequest.status[1]);
-    }
+//    public void approve(ClassRequest request){
+//        request.setRequestStatus(ClassRequest.status[1]);
+//    }
+//
+//    public void disapprove(ClassRequest request){
+//        request.setRequestStatus(ClassRequest.status[2]);
+//    }
 
-    public void disapprove(ClassRequest request){
-        request.setRequestStatus(ClassRequest.status[2]);
-    }
 
-    public void print (PrintStream ps){
-        super.print(ps);
-        ps.print("PTT Director");
-    }
 }

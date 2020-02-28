@@ -7,9 +7,13 @@ public class Class {
     private Date date;
 
     public Class(String className, int classID, Date date){
-        this.setClassName(className);
-        this.setClassID(classID);
-        this.setDate(date);
+        this.className = className;
+        this.classID = classID;
+        this.date = date;
+
+//        this.setClassName(className);
+//        this.setClassID(classID);
+//        this.setDate(date);
     }
 
     // ClassName

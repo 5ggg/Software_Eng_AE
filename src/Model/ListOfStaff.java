@@ -15,5 +15,5 @@ public class ListOfStaff implements Iterable<Staff> {
         return this.listOfStaff.iterator();
     }
 
-    
+
 }

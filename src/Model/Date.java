@@ -1,6 +1,9 @@
 package Model;
 
 public class Date{
+
+    // semesterNumber is 1 or 2 (or 1,2,3)
+    // semesterYear is a certain year read from a file
     private int semesterNumber;
     private int semesterYear;
 
@@ -26,9 +29,9 @@ public class Date{
     }
 
     public boolean equals() {
-            if(semester.getSemesterNumber()==this.getSemesterNumber()
+            if(Date.getSemesterNumber()==this.getSemesterNumber()
                     &&
-               semester.getSemesterYear()==this.getSemesterYear())
+               Date.getSemesterYear()==this.getSemesterYear())
             {
                 return true;
             }
