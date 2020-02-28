@@ -10,7 +10,7 @@ public class Class {
         this.className = className;
         this.classID = classID;
         this.date = date;
-        
+
 
 //        this.setClassName(className);
 //        this.setClassID(classID);

@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a3831-b819-4d7a-b031-8e0c03059e87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ListOfRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListOfRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ListOfStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListOfStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PTTDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PTTDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ApplicationWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assessed Exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Assessed Exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursePlannerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CoursePlannerScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditorToolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/EditorToolbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/NavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavigationButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/NavigationButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavigationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/NavigationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoleSelectionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/RoleSelectionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Date.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +49,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SoftwareEngineeringProject-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/WorkSpace.lnk" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study Files\Master\Software Engineering (M)\WorkSpace\src\View" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -78,14 +90,19 @@
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824/-3840.-520.1536.824@0.0.1536.824" timestamp="1582888320217" />
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582409928540" />
+    <state x="490" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582911370766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582911370766" />
     <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser" timestamp="1582901768558">
       <screen x="-3840" y="-520" width="1536" height="824" />
     </state>
     <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-3840.-520.1536.824@-3840.-520.1536.824" timestamp="1582901768557" />
-    <state x="-3290" y="-351" key="FileChooserDialogImpl" timestamp="1582892932021">
-      <screen x="-3840" y="-520" width="1536" height="824" />
+    <state x="550" y="169" key="FileChooserDialogImpl" timestamp="1582911473379">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-3290" y="-351" key="FileChooserDialogImpl/0.0.1536.824/-3840.-520.1536.824@-3840.-520.1536.824" timestamp="1582892932021" />
+    <state x="550" y="169" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582911473379" />
     <state x="-3409" y="-375" width="672" height="678" key="search.everywhere.popup" timestamp="1582894108279">
       <screen x="-3840" y="-520" width="1536" height="824" />
     </state>
