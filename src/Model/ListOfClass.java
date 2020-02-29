@@ -19,10 +19,8 @@ public class ListOfClass {
     }
 
     public void add(int classID){
-
     }
     public void add(Class c) {
-
     }
 
     public void remove(int classID){
@@ -31,5 +29,6 @@ public class ListOfClass {
     public void remove(Class c) {
 
     }
+
 
 }

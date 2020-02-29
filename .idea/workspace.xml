@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a3831-b819-4d7a-b031-8e0c03059e87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/ApplicationWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/CoursePlannerScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/EditorToolbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/NavigationBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/NavigationButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/NavigationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RoleSelectionScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ClassDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ClassDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ListOfClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListOfClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PTTDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PTTDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Request.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +56,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study Files\Master\Software Engineering (M)\WorkSpace\src\View" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">

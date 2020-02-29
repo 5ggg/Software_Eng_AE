@@ -2,7 +2,7 @@ package Model;
 
 public class Class {
 
-    private String className;
+    private String className;  // className should be equals to the subject(in the Teacher Object)
     private int classID;
     private Date date;
 
@@ -40,4 +40,5 @@ public class Class {
     public void setDate(Date date) {
         this.date = date;
     }
+
 }

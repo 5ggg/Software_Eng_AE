@@ -3,8 +3,8 @@ package Model;
 import java.io.PrintStream;
 
 public class PTTDirector extends Staff {
-    public PTTDirector (String firstName, String lastName){
-        super(firstName, lastName);
+    public PTTDirector (int staffID, String firstName, String lastName){
+        super(staffID, firstName, lastName);
     }
 
     public void approve(Request request){
