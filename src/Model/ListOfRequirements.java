@@ -16,28 +16,28 @@ public class ListOfRequirements implements Iterable<Requirement> {
 		return listOfRequirement;
 	}
 
-	public Requirement find(int identifier) {
-		for (Requirement tr: listOfRequirement) {
-			if (tr.getId() == identifier) {
-				return tr;
+	// user could find a certain requirement from the list by ID.
+	public Requirement find(int id) {
+		for (Requirement r: listOfRequirement) {
+			if (r.getId() == id) {
+				return r;
 			}
 		}
 
 		return null;
 	}
 
-
 	public void add(Requirement tr) {
 		listOfRequirement.add(tr);
 	}
 
-	// match the request
+	// check whether the
 	public boolean match(Request request){
-		Requirement requirement = request.getrequirment();
-		Classes classes = request.getClassRef();
+		Requirement requirement = request.getRequirement();
 		for (Requirement r:this.listOfRequirement){
 			Classes rClass = r.getClassRef();
-			if (r.getId()==requirement.getId()){
+			if (r.getId()==requirement.getId()
+				&& ){
 				if (classes.getTime().equals(rClass.getTime())){ // match the number and time
 					return true;
 				}
@@ -45,31 +45,6 @@ public class ListOfRequirements implements Iterable<Requirement> {
 		}
 		return false;
 	}
-
-//
-//	public ArrayList<Requirement> getAllRequirementsConnectedToARequest(Request request){
-//		ArrayList<Requirement> requirements = new ArrayList<>();
-//		int desiredId = request.getrequirment().getId();
-//		for(Requirement requirement:this.listOfRequirement){
-//			if (desiredId == requirement.getId()){
-//				requirements.add(requirement);
-//			}
-//		}
-//		return requirements;
-//	}
-
-	// match all request
-//	public ListOfRequirements getAllRequirementsConnectedToARequest(Request request) {
-//		ListOfRequirements listOfTeachingRequirements = new ListOfRequirements();
-//		int desiredId = request.getrequirment().getId();
-//		for(Requirement teachingRequirement : this.listOfRequirement) {
-//			if(desiredId==teachingRequirement.getId()) {
-//				listOfTeachingRequirements.add(teachingRequirement);
-//			}
-//		}
-//		return listOfTeachingRequirements;
-//	}
-
 
 	@Override
 	public Iterator<Requirement> iterator() {

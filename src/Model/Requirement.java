@@ -5,19 +5,20 @@ package model;
  */
 public class Requirement {
 
-	private static int num;
+	private static int a;
 	private int id;
 	private Classes requirementClass; // a certain class.
 
 	public Requirement(int id, Classes requirementClass) {
 		this.id = id;
 		this.requirementClass = requirementClass;
-		if (num<=id){
-			num=id+1;
+		if (a<=id){
+			a=id+1;
 		}
 	}
 
-	public String toWriter(){
+	// write method to return the detail information of Requirements.
+	public String write(){
 		return this.getId()+" "+this.getRequirementClass().getId();
 	}
 

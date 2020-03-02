@@ -2,18 +2,18 @@ package model;
 
 public abstract class Staff {
 
-    private static int num;
+    private static int a;
     protected int staffID;
     protected String firstName;
     protected String lastName;
 
-
+    // The constructor Staff, inherited by the other person.
     public Staff(int staffID, String firstName, String lastName) {
         this.staffID = staffID;
         this.firstName = firstName;
         this.lastName = lastName;
-        if (num<=staffID){
-            num=staffID+1;
+        if (a<=staffID){
+            a=staffID+1;
         }
     }
 
@@ -43,7 +43,8 @@ public abstract class Staff {
         this.lastName = lastName;
     }
 
-    public String toWriter() {
+    // write method to return the detail information of Staff.
+    public String write() {
         return this.getStaffID()+" "+this.getFirstName()+" "+this.getLastName()+" ";
     }
 }

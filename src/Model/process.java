@@ -20,22 +20,32 @@ public class Process {
 
     /**
      * Teacher create the teaching request and sent to the PTT director
+     * @param id
      * @param teacher
-     * @param classes
-     * @param requirement
+     * @param classInfo
+     * @param approval
      */
-    public void createRequest(Teacher teacher, Classes classes, Requirement requirement) {
-        Request request = new Request(teacher, classes, requirement);
+    public void createRequest(int id, Teacher teacher, Classes classInfo, int approval) {
+        Request request = new Request(id, teacher, classInfo, approval);
         ListOfRequests.getInstance().add(request);
     }
 
-    /**
-     * PPT Director approve the teaching request
-     * @param request
-     */
-    public void approveRequest(Request request) {
-        ListOfRequests.getInstance().approve(request);
-    }
+    //    Call it from the Request class.
+    //    /**
+//     * PPT Director approve the teaching request
+//     * @param request
+//     */
+//    public void approveRequest(Request request) {
+//        ListOfRequests.getInstance().approve(request);
+//    }
+//
+//    /**
+//     * PPT Director reject the teaching request
+//     * @param request
+//     */
+//    public void rejectRequest(Request request) {
+//        ListOfRequests.getInstance().reject(request);
+//    }
 
     /**
      * Admin match the

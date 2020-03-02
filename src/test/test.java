@@ -8,6 +8,9 @@ import model.Semester;
 
 import java.util.ArrayList;
 
+/**
+ * temporary single method test for Model.
+ */
 public class test {
 
     public static void main(String[] args) {
@@ -17,7 +20,7 @@ public class test {
         process.createRequirement(2,classes); // create teaching request
         ArrayList<Requirement> requirements = ListOfRequirements.getInstance().getRequirements();
         for (Requirement requirement : requirements) {
-            System.err.println(requirement.toWriter());
+            System.err.println(requirement.write());
         }
     }
 

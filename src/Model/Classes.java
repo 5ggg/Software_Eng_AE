@@ -2,33 +2,33 @@ package model;
 
 public class Classes {
 
-    private static int num;
-    private int id;
+    private static int a; //Auxiliary parameter
+    private int id;      // as mark
     private String name; // className should be equals to the subject(in the Teacher Object)
-    private String time; // maybe useful later  (i.e.)
-    private Semester semester; // semester, include year and semester number.
+    private String time; // We assume that there are only three options here: M/N/A
+                         // (present the time using the String M or N or A
+                         // M means Morning （9：00-11：00）
+                         // N means Noon （11：00-13：00）
+                         // A means Afternoon （14：00-16：00）
+    private Semester semester; // semester, include semester year and semester number.
 
-
-//    public Classes(String name,String time, Semester semester) {
-//        this.setName(name);
-//        this.setSemester(semester);
-//        this.setTime(time);
-//        this.setId(num);
-//    }
 
     public Classes(int id, String name, String time, Semester semester) {
         this.id = id;
         this.name = name;
         this.time = time;
         this.semester = semester;
-        if (num<=id){
-            num=id+1;
+        if (a<=id){  // maybe useful
+            a=id+1;
         }
     }
 
-    public String toWriter() {
-        return this.getId()+" "+ this.getName()+
-                " "+this.getTime()+" "+this.getSemester().getId();
+    // write method to return the detail information of Classes.
+    public String write() {
+        return this.getId()+" "+ this.getName()+ " "
+                + this.getTime()+" "
+                + this.getSemester().getSemesterNumber() + " "
+                + this.getSemester().getSemesterYear() + " ";
     }
 
     public String getName() {

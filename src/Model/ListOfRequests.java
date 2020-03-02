@@ -34,7 +34,7 @@ public class ListOfRequests implements Iterable<Request> {
 		for(Request r:this.listOfRequest){
 
 			if (r.getId()==request.getId()){
-				r.setApproval("1");
+				r.setApproval(1);
 				requests.add(r);
 			}
 
@@ -47,12 +47,11 @@ public class ListOfRequests implements Iterable<Request> {
 
 	/**
 	 * get the list approved
-	 *
 	 */
 	public ArrayList<Request> getApproved(){
 		ArrayList<Request> requests = new ArrayList<>();
 		for (Request r:this.listOfRequest){
-			if (r.getApproval()=="1"){
+			if (r.getApproval()==1){
 				requests.add(r);
 			}
 		}
@@ -61,7 +60,6 @@ public class ListOfRequests implements Iterable<Request> {
 
 	/**
 	 * remove the request from the list
-	 *
 	 */
 	public void remove(Request request){
 		for (int i = 0; i < this.listOfRequest.size(); i++) {

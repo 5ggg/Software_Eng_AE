@@ -18,11 +18,12 @@ public class Semester {
 		num++;
 	}
 
-	public String toWriter() {
-		return +this.getsemesterNumber() + " " + this.getsemesterYear();
+	// write method to return the detail information of Semesters. (might be useless)
+	public String write() {
+		return +this.getSemesterNumber() + " " + this.getSemesterYear();
 	}
 
-	public int getsemesterNumber() {
+	public int getSemesterNumber() {
 		return semesterNumber;
 	}
 
@@ -39,7 +40,7 @@ public class Semester {
 	}
 
 	public boolean equals(Semester semester) {
-		if (semester.getsemesterNumber() == this.getsemesterNumber()
+		if (semester.getSemesterNumber() == this.getSemesterNumber()
 				&& semester.getSemesterYear() == this.getSemesterYear()) {
 			return true;
 		} else {
