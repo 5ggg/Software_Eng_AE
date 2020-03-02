@@ -1,80 +1,87 @@
-package Model;
+package model;
+
 
 /**
- * Teaching request
+ * the teacher submit the teaching request
  */
 public class Request {
 
-    private static int num;
-    private int requestId;
-    private int classId;
-    private int numOfTeacher;
-    private int status;
-    private String requiredSubject;
-    private String time; // Date
+	private static int num;
+	private int id;
+	private Teacher teacher;
+	private Requirement requirment;
+	private String approval; // 0 means rejected, 1 means approved
 
 
-    public Request(int classId, int numOfTeacher, int status, String requiredSubject,String time) {
-        this.classId = classId;
-        this.numOfTeacher = numOfTeacher;
-        this.status = status;
-        this.requiredSubject = requiredSubject;
-        this.time = time;
-        this.requestId = num;
-        num++;
-    }
+	public Request(Teacher teacher, Requirement requirment) {
+		this.setTeacher(teacher);
+		this.setrequirment(requirment);
+		this.approval = "0";
+		this.setId(num);
+		num++;
+	}
 
 
+	public Request(int id, Teacher teacher, Requirement requirment, String approval) {
+		this.id = id;
+		this.teacher = teacher;
+		this.requirment = requirment;
+		this.approval = approval;
+		if (num<=id){
+			num=id+1;
+		}
+	}
 
-    // status =1 / 2
-    // 0 not check
-    // 1 means accept
-    // 2 means reject
+	public String toWriter(){
+		return this.getId()+" "
+				+ "Teacher ID:" + this.getTeacher().getStaffID()+" "
+				+ "Teaching subject:"+this.getTeacher().getSubject()+" "
+				+this.getrequirment().getId()+" "+this.getApproval();
+	}
 
-    // xxx
+//	public Request(int id, Teacher teacher, Requirement requirment) {
+//		this.setTeacher(teacher);
+//		this.setrequirment(requirment);
+//		this.approval = false;
+//		this.setId(id);
+//	}
 
 
-    public int getRequestId() {
-        return requestId;
-    }
-    public int getNumOfTeacher() {
-        return numOfTeacher;
-    }
-    public void setNumOfTeacher(int numOfTeacher) {
-        this.numOfTeacher = numOfTeacher;
-    }
-    public int getClassId() {
-        return classId;
-    }
-    public String getRequiredSubject() {
-        return requiredSubject;
-    }
+	public String getApproval() {
+		return approval;
+	}
 
-    public void setRequestId(int requestId) {
-        this.requestId = requestId;
-    }
+	public void setApproval(String approval) {
+		this.approval = approval;
+	}
 
-    public void setClassId(int classId) {
-        this.classId = classId;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public int getStatus() {
-        return status;
-    }
 
-    public void setStatus(int status) {
-        this.status = status;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public void setRequiredSubject(String requiredSubject) {
-        this.requiredSubject = requiredSubject;
-    }
 
-    public String getTime() {
-        return time;
-    }
+	public Teacher getTeacher() {
+		return teacher;
+	}
 
-    public void setTime(String time) {
-        this.time = time;
-    }
+
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
+	}
+
+
+	public Requirement getrequirment() {
+		return requirment;
+	}
+
+
+	public void setrequirment(Requirement requirment) {
+		this.requirment = requirment;
+	}
+
 }
