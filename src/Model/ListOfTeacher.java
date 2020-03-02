@@ -1,18 +1,34 @@
 package Model;
 
 import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * Teacher List
+ */
 public class ListOfTeacher {
-    private ListOfTeacher(){
-        // constructor
+
+    private ArrayList<Teacher> teachers = new ArrayList<Teacher>();
+
+    public static ListOfTeacher getInstance() {
+        return instance;
     }
 
-    private ArrayList<Teacher> loT = new ArrayList<Teacher>();
+    public void add(Teacher teacher) {
+        teachers.add(teacher);
+    }
 
-    public void add(Teacher teacher){
-        loT.add(teacher);
+    public void remove(Teacher teacher) {
+        teachers.remove(teacher);
     }
-    public void remove(Teacher teacher){
-        loT.remove(teacher);
+
+    public Teacher get(int id) {
+        return teachers.get(id);
     }
+
+    public List<Teacher> getTeacherList() {
+        return teachers;
+    }
+
+
 }

@@ -1,44 +1,45 @@
 package Model;
 
+
+/**
+ * Teaching requirement
+ */
 public class Class {
 
-    private String className;  // className should be equals to the subject(in the Teacher Object)
+    private static int num;
     private int classID;
-    private Date date;
+    private String className; // subject  // className should be equals to the subject(in the Teacher Object)
+    private String classDate; // Date
 
-    public Class(String className, int classID, Date date){
+    public Class(String className, String classDate) {
+        this.classID = num;
         this.className = className;
-        this.classID = classID;
-        this.date = date;
-        
-
-//        this.setClassName(className);
-//        this.setClassID(classID);
-//        this.setDate(date);
+        this.classDate = classDate;
+        num++;
     }
 
-    // ClassName
-    public String getClassName(){
-        return className;
-    }
-    public void setClassName(String className) {
-        this.className = className;
-    }
-
-    // ClassID
-    public int getClassID(){
+    public int getClassID() {
         return classID;
     }
+
     public void setClassID(int classID) {
         this.classID = classID;
     }
 
-    // Date
-    public Date getDate() {
-        return date;
+    public String getClassName() {
+        return className;
     }
-    public void setDate(Date date) {
-        this.date = date;
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getClassDate() {
+        return classDate;
+    }
+
+    public void setClassDate(String classDate) {
+        this.classDate = classDate;
     }
 
 }

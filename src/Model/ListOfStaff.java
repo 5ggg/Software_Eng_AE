@@ -9,7 +9,7 @@ public class ListOfStaff {
     private final ArrayList<Staff> loS = new ArrayList<Staff>();
 
 
-    public void add(Staff staff){
+    public void add(Staff staff) {
         loS.add(staff);
     }
 //  public class ListOfStaff implements Iterable<Staff>
