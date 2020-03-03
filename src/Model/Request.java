@@ -9,14 +9,14 @@ public class Request {
 	private static int num;
 	private int id;
 	private Teacher teacher;
-	private Classes classInfo;
+//	private Classes classInfo;
 	private int approval; // 0 means rejected, 1 means approved
 
 
-	public Request(int id, Teacher teacher, Classes classInfo, int approval) {
+	public Request(int id, Teacher teacher, int approval) {
 		this.setId(id);
 		this.setTeacher(teacher);
-		this.setClassInfo(classInfo);
+//		this.setClassInfo(classInfo);
 		this.approval = approval;
 		this.setId(num);
 		num++;
@@ -35,7 +35,9 @@ public class Request {
 		return this.getId()+" "
 				+ "Teacher ID:" + this.getTeacher().getStaffID()+" "
 				+ "Teaching subject:"+this.getTeacher().getSubject()+" "
-				+this.getClassInfo().getId()+" "+this.getApproval();
+				+ "Teacher availableTime" + this.getTeacher().getTime()+" "
+				+ "Teacher availableSemester" + this.getTeacher().getSemester()+ " "
+				+ this.getApproval();
 	}
 
 
@@ -67,13 +69,13 @@ public class Request {
 	}
 
 
-	public Classes getClassInfo() {
-		return classInfo;
-	}
-
-
-	public void setClassInfo(Classes classInfo) {
-		this.classInfo = classInfo;
-	}
+//	public Classes getClassInfo() {
+//		return classInfo;
+//	}
+//
+//
+//	public void setClassInfo(Classes classInfo) {
+//		this.classInfo = classInfo;
+//	}
 
 }

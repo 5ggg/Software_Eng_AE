@@ -26,7 +26,7 @@ public class Process {
      * @param approval
      */
     public void createRequest(int id, Teacher teacher, Classes classInfo, int approval) {
-        Request request = new Request(id, teacher, classInfo, approval);
+        Request request = new Request(id, teacher, approval);
         ListOfRequests.getInstance().add(request);
     }
 
@@ -48,12 +48,14 @@ public class Process {
 //    }
 
     /**
-     * Admin match the
-     * @param request  this request is the request after approved by PTT director
+     * Admin match the request and requirement.
+     * and if matchable = false, (means that there is no available requirement for the request)
+     * so the request will be removed automatically.
+     * @param request
      */
-    public void matchRequest(Request request) {
-        boolean match = ListOfRequirements.getInstance().match(request);
-        if (match==false){ // if not matched ,removed
+    public void initMatchRequest(Request request) {
+        boolean matchable = ListOfRequirements.getInstance().matchable(request);
+        if (matchable==false){ // if not matched ,removed
             ListOfRequests.getInstance().remove(request);
         }
     }

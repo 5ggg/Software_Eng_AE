@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a5a3831-b819-4d7a-b031-8e0c03059e87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +105,10 @@
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824/-3840.-520.1536.824@0.0.1536.824" timestamp="1582888320217" />
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582409928540" />
-    <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser" timestamp="1583178218106">
+    <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser" timestamp="1583204899949">
       <screen x="-3840" y="-520" width="1536" height="824" />
     </state>
-    <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-3840.-520.1536.824@-3840.-520.1536.824" timestamp="1583178218106" />
+    <state x="-3265" y="-397" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-3840.-520.1536.824@-3840.-520.1536.824" timestamp="1583204899949" />
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583157411541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
