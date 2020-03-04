@@ -85,9 +85,7 @@ public class ClassDirectorPortal extends javax.swing.JFrame {
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-       
-        
-        AdministratorDuties f2 = new AdministratorDuties();
+        CancelWindow f2 = new CancelWindow();
         f2.setVisible(true);
         dispose();
     }
@@ -97,21 +95,13 @@ public class ClassDirectorPortal extends javax.swing.JFrame {
        
             int op = JOptionPane.showConfirmDialog(null,0);
             if(op==0){
-                ClassDirectorPortal f3 = new ClassDirectorPortal();
+                PickRequirements f3 = new PickRequirements();
                 f3.setVisible(true);
                 dispose();
             }
-            else
-                if(op==0){
-                AdministratorDuties f3 = new AdministratorDuties();
-                f3.setVisible(true);
-                dispose();
-            } 
-        } 
+    }
 
     public static void main(String args[]) {
-
-
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
