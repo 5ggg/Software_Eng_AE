@@ -1,3 +1,4 @@
+import javax.swing.*;  
 public class CDCreateRequirement extends javax.swing.JFrame {
     
 	public CDCreateRequirement() {
@@ -7,14 +8,14 @@ public class CDCreateRequirement extends javax.swing.JFrame {
 
     private void initComponents() {
 
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jButton3 = new javax.swing.JButton();
+        jScrollPane2 = new JScrollPane();
+        jTable2 = new JTable();
+        jButton1 = new JButton();
+        jButton2 = new JButton();
+        jLabel1 = new JLabel();
+        jLabel2 = new JLabel();
+        jTextField1 = new JTextField();
+        jButton3 = new JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -147,13 +148,13 @@ public class CDCreateRequirement extends javax.swing.JFrame {
         });
     }
   
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTextField jTextField1;
+    private JButton jButton1;
+    private JButton jButton2;
+    private JButton jButton3;
+    private JLabel jLabel1;
+    private JLabel jLabel2;
+    private JScrollPane jScrollPane2;
+    private JTable jTable2;
+    private JTextField jTextField1;
     
 }
