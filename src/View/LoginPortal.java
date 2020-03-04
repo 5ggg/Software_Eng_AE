@@ -37,7 +37,7 @@ public class LoginPortal extends javax.swing.JFrame {
             }
         });
 
-        Utype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Administrator", "Teacher" }));
+        Utype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Administrator", "Teacher", "PTT Director", "Class Director" }));
 
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
