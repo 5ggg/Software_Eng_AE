@@ -1,6 +1,7 @@
 # Software_Eng_AE
 
-The master branch is be pushed -f/force with a init .git, so the original commits has been moved. (I've stored them on the dev branch)
+The master branch is be pushed -f/force with a init .git, so the original commits history has been moved.  
+(I've stored the original code on the dev branch)
 
 The project based on SSM frame template,
 but unfortunately, it is not complete yet. 
