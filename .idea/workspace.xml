@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a3831-b819-4d7a-b031-8e0c03059e87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Model/Staff/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Staff/ClassDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Staff/PTTDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Staff/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Staff/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/ListOfClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/ListOfRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/ListOfRequirements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/Requirement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/operation/Semester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Administrator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ClassDirector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Classes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ListOfClasses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ListOfRequests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ListOfRequirements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PTTDirector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Requirement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Semester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Staff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
