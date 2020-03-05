@@ -1,7 +1,6 @@
-package model;
+package model.operation;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ListOfRequirements{
 

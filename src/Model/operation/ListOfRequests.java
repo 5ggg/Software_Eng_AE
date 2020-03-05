@@ -1,11 +1,11 @@
-package model;
+package model.operation;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ListOfRequests implements Iterable<Request> {
 
-	ArrayList<Request> listOfRequest = new ArrayList<Request>();
+	private ArrayList<Request> listOfRequest = new ArrayList<Request>();
 
 	private static ListOfRequests instance = new ListOfRequests();
 	public static ListOfRequests getInstance() {

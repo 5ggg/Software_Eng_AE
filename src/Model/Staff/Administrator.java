@@ -1,4 +1,4 @@
-package model;
+package model.Staff;
 
 public class Administrator extends Staff {
     public Administrator(int staffID, String firstName, String lastName) {

@@ -1,4 +1,6 @@
-package model;
+package model.operation;
+
+import model.operation.Semester;
 
 public class Classes {
 

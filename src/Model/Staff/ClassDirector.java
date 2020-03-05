@@ -1,4 +1,6 @@
-package model;
+package model.Staff;
+
+import model.Staff.Staff;
 
 public class ClassDirector extends Staff {
 

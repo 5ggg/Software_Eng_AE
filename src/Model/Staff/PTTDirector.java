@@ -1,4 +1,4 @@
-package model;
+package model.Staff;
 
 public class PTTDirector extends Staff{
 

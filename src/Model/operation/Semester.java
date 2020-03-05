@@ -1,6 +1,4 @@
-package model;
-
-import javax.management.RuntimeOperationsException;
+package model.operation;
 
 /**
  * Separately designed a class to represent the object semester,

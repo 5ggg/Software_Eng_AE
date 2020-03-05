@@ -1,4 +1,4 @@
-package model;
+package model.Staff;
 
 public abstract class Staff {
 

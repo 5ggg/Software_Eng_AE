@@ -1,4 +1,6 @@
-package model;
+package model.operation;
+
+import model.Staff.Teacher;
 
 import java.util.ArrayList;
 

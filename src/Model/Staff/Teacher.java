@@ -1,4 +1,6 @@
-package model;
+package model.Staff;
+
+import model.operation.Semester;
 
 public class Teacher extends Staff {
 

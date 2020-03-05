@@ -1,10 +1,10 @@
 package test;
 
-import model.Process;
-import model.Classes;
-import model.ListOfRequirements;
-import model.Requirement;
-import model.Semester;
+import model.operation.Process;
+import model.operation.Classes;
+import model.operation.ListOfRequirements;
+import model.operation.Requirement;
+import model.operation.Semester;
 
 import java.util.ArrayList;
 

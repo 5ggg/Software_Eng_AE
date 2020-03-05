@@ -1,5 +1,7 @@
-package model;
+package model.operation;
 
+
+import model.Staff.Teacher;
 
 /**
  * the teacher submit the teaching request
