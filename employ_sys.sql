@@ -126,10 +126,10 @@ INSERT INTO `employ_sys`.`teacher` (`id`,`name`,`pass_word`,`create_time`)  VALU
 INSERT INTO `employ_sys`.`teacher` (`id`,`name`,`pass_word`,`create_time`)  VALUES('4','teacher3','123','2020-02-26 05:51:35');
 INSERT INTO `employ_sys`.`teacher` (`id`,`name`,`pass_word`,`create_time`)  VALUES('5','teacher4','123','2020-02-29 20:51:35');
 INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('1','ppt','123','2020-02-04 22:51:35');
-INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('2','ppt1','123','2020-02-07 02:51:35');
-INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('3','ppt2','123','2020-02-05 19:51:35');
-INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('4','ppt3','123','2020-03-04 09:51:35');
-INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('5','ppt4','123','2020-02-11 08:51:35');
+INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('2','ptt1','123','2020-02-07 02:51:35');
+INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('3','ptt2','123','2020-02-05 19:51:35');
+INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('4','ptt3','123','2020-03-04 09:51:35');
+INSERT INTO `employ_sys`.`ppt_director` (`id`,`name`,`pass_word`,`create_time`)  VALUES('5','ptt4','123','2020-02-11 08:51:35');
 INSERT INTO `employ_sys`.`class_director` (`id`,`name`,`pass_word`,`class_id`,`create_time`)  VALUES('1','class_direct','123','1','2020-02-03 14:51:35');
 INSERT INTO `employ_sys`.`class_director` (`id`,`name`,`pass_word`,`class_id`,`create_time`)  VALUES('2','class_direct1','123','1','2020-02-09 22:51:35');
 INSERT INTO `employ_sys`.`class_director` (`id`,`name`,`pass_word`,`class_id`,`create_time`)  VALUES('3','class_direct2','123','2','2020-02-28 10:51:35');
