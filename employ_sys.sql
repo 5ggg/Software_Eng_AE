@@ -31,16 +31,6 @@ CREATE TABLE IF NOT EXISTS `ppt_director` (
  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='PTT Director';
 
 
-drop TABLE if EXISTS `class_director`;
-CREATE TABLE IF NOT EXISTS `class_director` (
- `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary key id',
- `name` varchar(255) DEFAULT NULL COMMENT 'name',
- `pass_word` varchar(255) DEFAULT NULL COMMENT 'password',
- `class_id` int(11) DEFAULT NULL COMMENT 'Class',
- `create_time` varchar(30) DEFAULT NULL COMMENT 'Creation time',
-  PRIMARY KEY (`id`)
- ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Class Director';
-
 
 drop TABLE if EXISTS `teaching_request`;
 CREATE TABLE IF NOT EXISTS `teaching_request` (
@@ -57,7 +47,17 @@ CREATE TABLE IF NOT EXISTS `teaching_request` (
   PRIMARY KEY (`id`)
  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Teaching Request';
 
-
+drop TABLE if EXISTS `class_director`;
+CREATE TABLE IF NOT EXISTS `class_director` (
+ `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary key id',
+ `name` varchar(255) DEFAULT NULL COMMENT 'name',
+ `pass_word` varchar(255) DEFAULT NULL COMMENT 'password',
+ `class_id` int(11) DEFAULT NULL COMMENT 'Class',
+ `create_time` varchar(30) DEFAULT NULL COMMENT 'Creation time',
+  PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Class Director';
+ 
+ 
 drop TABLE if EXISTS `semester_info`;
 CREATE TABLE IF NOT EXISTS `semester_info` (
  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary key id',
